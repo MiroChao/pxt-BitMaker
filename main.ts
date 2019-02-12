@@ -37,7 +37,7 @@ namespace BitMaker {
     //% Din.fieldOptions.columns=3
     //% high.shadow="toggleHighLow"
     //% high.defl="true"
-    //% group="Digital"
+    //% group="I2C"
     export function read_Din(Din: GrovePort, high: boolean): boolean {
         let Din_stat: number;
         if (Din == GrovePort.P0) {
