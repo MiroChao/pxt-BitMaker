@@ -1,0 +1,11 @@
+{
+    "BitMaker.read_Din_value": "读取指定Grove数字接口的值为 0 或 1.",       // Read the specified pin or Grove port as either or 1
+    "BitMaker.read_Din": "读取指定Grove数字接口的状态为 高 或 低",             // Read the state of a pin or Grove port as either high or low
+    "BitMaker.set_Dout": "将指定Grove数字接口的状态设置为 高 或 低",             // Set a pin or Grove port to high or low
+    "BitMaker.read_Ain": "读取指定Grove模拟接口的值，即 0 到 1023 之间的值",             // Read the analog inputs at the specified Grove port, as a value comprised between 0 and 1023
+    "BitMaker.convert_Ain": "读取指定Grove模拟接口的值 (0 到 1023之间)，然后映射为指定范围的值",          // Read the analog inputs at the specified Grove port, then map the value(was between 0 and 1023) to the specified range
+    "BitMaker.write_analog": "设置指定Grove模拟接口的模拟信号值，值必须宰 0 到 1023 之间",         // Set the Grove port value as analog. Value must be comprised between 0 and 1023
+    "BitMaker.config_PWM": "设置指定Grove接口的PWM 模拟区间 （该接口必须先用 模拟写入 积木设置为模拟输出口，否则改积木无效）",           // Configure the period of Pulse Width Modulation (PWM) on the specified analog pin to a given value in "microseconds". Before you call this function, you should set the specified pin as analog output using "analog write pin".
+    "BitMaker.read_i2c": "从7位I2C地址读取一个数字",             // Read one number to a 7-bit address
+    "BitMaker.write_i2c": "将一个数字写入7位I2C地址"             // Write one number to a 7-bit address
+}
