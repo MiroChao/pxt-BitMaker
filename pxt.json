@@ -1,6 +1,6 @@
 {
     "name": "BitMaker",
-    "version": "0.0.6",
+    "version": "0.0.0",
     "description": "The BitMaker extension for micro:bit",
     "license": "MIT",
     "dependencies": {
@@ -14,6 +14,5 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
-    "installedVersion": "workspace:4ca7f17d-a2d8-4f52-272d-5c89fbc79a29"
+    "public": true
 }
