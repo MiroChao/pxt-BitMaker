@@ -9,7 +9,8 @@
     "files": [
         "README.md",
         "bitmaker.ts",
-        "_locales/zh/bitmaker-strings.json"
+        "_locales/zh/bitmaker-strings.json",
+        "_locales/zh/bitmaker-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
