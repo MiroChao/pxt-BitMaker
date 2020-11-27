@@ -1,0 +1,12 @@
+{
+  "BitMaker": "Provides access to BitMaker for micro: bit functionality.",
+  "BitMaker.config_PWM": "设置指定Grove接口的PWM 模拟区间 （该接口必须先用 模拟写入 积木设置为模拟输出口，否则改积木无效）",
+  "BitMaker.convert_Ain": "读取指定Grove模拟接口的值 (0 到 1023之间)，然后映射为指定范围的值",
+  "BitMaker.read_Ain": "读取指定Grove模拟接口的值，即 0 到 1023 之间的值",
+  "BitMaker.read_Din": "读取指定Grove数字接口的状态为 高 或 低",
+  "BitMaker.read_Din_value": "读取指定Grove数字接口的值为 0 或 1",
+  "BitMaker.read_i2c": "从7位I2C地址读取一个数字",
+  "BitMaker.set_Dout": "将指定Grove数字接口的状态设置为 高 或 低",
+  "BitMaker.write_analog": "设置指定Grove模拟接口的模拟信号值，值必须宰 0 到 1023 之间",
+  "BitMaker.write_i2c": "将一个数字写入7位I2C地址"
+}

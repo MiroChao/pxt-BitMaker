@@ -1,6 +1,6 @@
 {
-    "name": "BitMaker",
-    "version": "0.0.6",
+    "name": "bitmaker",
+    "version": "0.0.0",
     "description": "The BitMaker extension for micro:bit",
     "license": "MIT",
     "dependencies": {
@@ -8,11 +8,16 @@
     },
     "files": [
         "README.md",
-        "bitmaker.ts"
+        "bitmaker.ts",
+        "_locales/zh/bitmaker-strings.json",
+        "_locales/zh/bitmaker-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
-    "installedVersion": "workspace:4ca7f17d-a2d8-4f52-272d-5c89fbc79a29"
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }

@@ -93,7 +93,7 @@ namespace BitMaker {
     }
 
     /**
-    * Read the analog inputs at the specified Grove port, the map the value(was between 0 and 1023) to the specified range
+    * Read the analog inputs at the specified Grove port, then map the value(was between 0 and 1023) to the specified range
     */
     //% blockId=convert_Ain
     //% block="map pin $analogport|to low $low_value|high $high_value"
@@ -124,7 +124,7 @@ namespace BitMaker {
     * Configure the period of Pulse Width Modulation (PWM) on the specified analog pin to a given value in "microseconds". Before you call this function, you should set the specified pin as analog output using "analog write pin".
     */
     //% blockId=config_PWM
-    //% block="analog set period pin $analogport|(PWM) to (us) $value"
+    //% block="analog set period pin $analogport|(PWM) to $value| (us)"
     //% value.defl=20000
     //% group="Analog"
     //% weight=20
